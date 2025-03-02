@@ -1,0 +1,25 @@
+{
+  "name": "sado",
+  "version": "1.0.0",
+  "description": "SADo Todo App - Full Stack Application",
+  "scripts": {
+    "install": "concurrently \"npm run install:*\" -c \"green,yellow\"",
+    "install:frontend": "cd ./frontend && npm install",
+    "install:backend": "cd ./backend && npm install",
+    "dev": "concurrently \"npm run dev:*\" -c \"green,yellow\"",
+    "dev:frontend": "cd ./frontend && npm run dev",
+    "dev:backend": "cd ./backend && npm run dev",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "format": "concurrently \"npm run format:*\" -c \"green,yellow\"",
+    "format:frontend": "cd ./frontend && npm run format",
+    "format:backend": "cd ./backend && npm run format",
+    "build": "cd ./frontend && npm run build",
+    "start": "cd ./frontend && npm run start",
+    "lint": "cd ./frontend && npm run lint"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
+
