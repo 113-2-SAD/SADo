@@ -3,6 +3,7 @@ import { todoRouter } from "@/routes/todoRoutes";
 import cors from "cors";
 import express from "express";
 
+// This is server
 const app = express();
 const port = process.env.PORT || 3001;
 
