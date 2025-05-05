@@ -4,6 +4,8 @@ This is a monorepo for the SADo (Simple Todo) application, built as an example p
 
 ![Project Cover](./cover.jpeg)
 
+Hello World!
+
 ## Tech Stack
 
 *   **Monorepo:** [pnpm](https://pnpm.io/) workspaces + [Turborepo](https://turbo.build/repo)
