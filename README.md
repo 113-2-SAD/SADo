@@ -70,3 +70,5 @@ Run these commands from the root directory:
 *   `pnpm test:e2e`: Run end-to-end tests (currently configured for the frontend using Playwright).
 
 You can also run scripts for individual workspaces, e.g., `pnpm --filter backend dev`.
+
+Hello SADo
