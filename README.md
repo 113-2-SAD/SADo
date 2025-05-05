@@ -1,3 +1,4 @@
+#雞雞
 # SADo - Simple Todo App
 
 This is a monorepo for the SADo (Simple Todo) application, built as an example project for SAD (System Analysis and Design). It includes a Next.js frontend and an Express.js backend.
